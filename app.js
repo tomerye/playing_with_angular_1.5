@@ -26,7 +26,7 @@
  			search: function (query) {
  				return $http.get('https://www.googleapis.com/youtube/v3/search', {
  					params: {
- 						key: 'AIzaSyAA1n_xNuga76hYXnzoIRQl5j07M15KkOc', //this is my private key please dont publish
+ 						key: '<google youtube api key>', //this is my private key please dont publish
  						type: 'video',
  						maxResults: '20',
  						part: 'id,snippet',
