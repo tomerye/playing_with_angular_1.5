@@ -82,7 +82,7 @@
  	},
  	template: '<form name="youtubeEditorForm" layout="row" layout-align="center">' +
  				'<md-input-container style="margin-right: 10px;width:400px">' +
-					'<label>Past source link</label>' +
+					'<label>Paste source link</label>' +
 					'<input name="youtubeLink" ng-model="$ctrl.url" ng-change="$ctrl.onUrlChange()" validate-youtube-link>' +
 					 '<div ng-messages="youtubeEditorForm.youtubeLink.$error">' +
       					'<div ng-message="validYoutube">This is invalid YouTube link!</div>' +
